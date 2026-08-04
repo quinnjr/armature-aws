@@ -1,12 +1,12 @@
 [package]
 name = "armature-aws"
 version = "0.2.0"
-edition.workspace = true
-rust-version.workspace = true
-authors.workspace = true
-license.workspace = true
+edition = "2024"
+rust-version = "1.94.1"
+authors = ["Joseph Quinn <quinn.josephr@proton.me>"]
+license = "Apache-2.0"
 repository = "https://github.com/quinnjr/armature-aws"
-homepage.workspace = true
+homepage = "https://quinnjr.github.io/armature"
 description = "AWS cloud services integration for Armature - dynamically loadable and DI-ready"
 keywords = ["aws", "cloud", "s3", "dynamodb", "lambda"]
 categories = ["web-programming", "asynchronous"]
