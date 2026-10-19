@@ -25,7 +25,7 @@ aws-types = { version = "1.6" }
 # Held below 1.7 so a fresh resolve (Cargo.lock is not committed) picks the
 # aws-sdk-*/aws-runtime releases that still build with aws-config 1.12's
 # aws-smithy-json 0.63. Drop this once aws-config moves to aws-smithy-json 0.64.
-aws-smithy-types = { version = ">=1.6.3, <1.7" }
+aws-smithy-types = { version = ">=1.6.3, <1.9" }
 
 # AWS SDK - services (all optional)
 # The aws-sdk-* requirements stop one release short of the newest: those
