@@ -9,6 +9,12 @@ Earlier changes are recorded in the workspace [`CHANGELOG.md`](../CHANGELOG.md).
 
 ## [Unreleased]
 
+## [0.2.3] - 2026-10-29
+
+### Changed
+
+- CI: actions pinned to commit SHAs, a least-privilege `GITHUB_TOKEN`, and Dependabot for actions.
+
 ## [0.2.2] - 2026-09-15
 
 ### Changed
